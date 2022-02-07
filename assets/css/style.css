@@ -8,10 +8,46 @@
 }
 
 /* font-family: 'Old Standard TT', serif;
-font-family: 'Raleway', sans-serif; */
+font-family: 'Raleway', sans-serif; 
+
+$font-xxxl: 50px;
+$font-xxl: 30px;
+$font-xl: 20px;
+$font-l: 18px;
+$font-m: 16px;
+$font-s: 14px;
+$font-xs: 12px;
+*/
 header {
   font-family: 'Old Standard TT', serif;
   font-weight: 700;
+}
+
+.info {
+  padding: 2rem;
+}
+
+.info h1 {
+  font-family: 'Old Standard TT', serif;
+  font-size: 50px;
+}
+
+.info p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 500px) {
+  .description {
+    padding: 2rem;
+  }
+  .description h1 {
+    font-size: 30px;
+  }
+  .description p {
+    font-size: 14px;
+  }
 }
 
 .header .navbar-brand {
@@ -33,4 +69,43 @@ header {
     background-position: top;
     background-size: cover;
   }
+}
+
+.contacto {
+  background: var(--smoky-black);
+  color: var(--white);
+  position: relative;
+}
+
+.Newslatter {
+  width: 85%;
+}
+
+.Newslatter input {
+  border-radius: 0;
+}
+
+.Suscribir {
+  background: var(--white);
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.Suscribir p {
+  margin: 0;
+  font-size: 20px;
+  color: var(--smoky-black);
+  padding: 0.5rem;
+  writing-mode: vertical-lr;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

@@ -1,0 +1,32 @@
+.contacto {
+    background: var(--smoky-black);
+    color: var(--white);
+    position: relative;
+}
+
+.Newslatter {
+    width: 85%;
+
+    input {
+        border-radius: 0;
+    }
+}
+
+.Suscribir {
+    background: var(--white);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+
+    p {
+        margin: 0;
+        font-size: 20px;
+        color: var(--smoky-black);
+        padding: 0.5rem;
+        writing-mode: vertical-lr;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+}

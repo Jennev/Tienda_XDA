@@ -1,8 +1,44 @@
 
 /* font-family: 'Old Standard TT', serif;
-font-family: 'Raleway', sans-serif; */
+font-family: 'Raleway', sans-serif; 
+
+$font-xxxl: 50px;
+$font-xxl: 30px;
+$font-xl: 20px;
+$font-l: 18px;
+$font-m: 16px;
+$font-s: 14px;
+$font-xs: 12px;
+*/
 
 header {
     font-family: 'Old Standard TT', serif;
     font-weight: 700;
+}
+
+.info {
+    padding: 2rem;
+    h1 {
+        font-family: 'Old Standard TT', serif;
+        font-size: 50px;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif; 
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .description {
+        padding: 2rem;
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
 }
