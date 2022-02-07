@@ -50,6 +50,23 @@ header {
   }
 }
 
+.button {
+  border: 1px solid var(--smoky-black);
+  background-color: var(--white);
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  padding: 0.25rem 1rem;
+}
+
+.button:hover {
+  border: 1px solid var(--isabelline);
+}
+
+.button:focus {
+  border: 1px solid var(--isabelline);
+  color: var(--isabelline);
+}
+
 .header .navbar-brand {
   padding: 15px;
   color: var(--white);
@@ -57,10 +74,16 @@ header {
 }
 
 .hero {
-  height: calc(100vh - 60px);
+  height: calc(80vh - 10px);
+  background-image: url("/assets/img/imagen1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.hero .img-hero {
+  width: auto;
+  height: auto;
 }
 
 @media screen and (max-width: 500px) {

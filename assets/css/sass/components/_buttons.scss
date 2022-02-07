@@ -1,0 +1,16 @@
+.button {
+  border: 1px solid var(--smoky-black);
+  background-color: var(--white);
+  font-family: 'Raleway', sans-serif; 
+  font-weight: bold;
+  padding: 0.25rem 1rem;
+
+  &:hover {
+    border: 1px solid var(--isabelline);
+  }
+
+  &:focus {
+    border: 1px solid var(--isabelline);
+    color: var(--isabelline);
+  }
+}

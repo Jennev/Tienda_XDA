@@ -1,8 +1,14 @@
 .hero {
-    height: calc(100vh - 60px);
+    height: calc(80vh - 10px);
+    background-image: url("/assets/img/imagen1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    .img-hero{
+        width: auto;
+        height: auto;
+        
+    }
 }
 
 @media screen and (max-width: 500px) {
